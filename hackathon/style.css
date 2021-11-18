@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+
+body {
+  background-image: url('https://wallpapercave.com/wp/wp2952142.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.02em;
+  font-weight: 400px;
+  -webkit-font-smoothing: antialiased;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mr Dafoe';
+  margin: 0;
+  font-size: 3em;
+  margin-top: -0.6em;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #3d3d3d, 0 0 0.3em #3d3d3d;
+  transform: rotate(-7deg);
+  margin-top: 60px;
+  margin-left: 70px;
+}
+@media only screen and (min-width: 770px) {
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mr Dafoe';
+    margin: 0;
+    font-size: 4em;
+    margin-top: -0.6em;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #3d3d3d, 0 0 0.3em #3d3d3d;
+    transform: rotate(-7deg);
+    margin-top: 70px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.info {
+  display: flex;
+  font-family: 'Exo';
+  height: 600px;
+  width: 400px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.14) 13%,
+    rgba(183, 183, 183, 0.5) 43%,
+    rgba(0, 0, 0, 0.14) 13%
+  );
+  border-radius: 10px;
+  padding-bottom: 6px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  margin-right: 16px;
+  margin-bottom: 16px;
+  margin-top: 5px;
+  transition: transform 0.3s;
+  align-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#display {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.form-control {
+  max-width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.details {
+  color: #3d3d3d;
+  background-color: rgba(255, 255, 255, 0.795);
+  text-shadow: 2px 2px rgba(141, 140, 140, 0.192);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  text-align: center;
+}
+.poster {
+  border-radius: 15px;
+  padding-bottom: 5px;
+}
+.info:hover {
+  transform: scale(1.05);
+
+  background-color: rgba(255, 255, 255, 0.432);
+  color: rgb(12, 12, 12);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+}
+span {
+  color: gold;
+  text-shadow: 0 0 5px #0e0d0d;
+}
+b {
+  color: whitesmoke;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
